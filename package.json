@@ -1,0 +1,22 @@
+{
+    "name": "node_js",
+    "version": "1.0.0",
+    "description": "it a node_js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js"
+    },
+    "author": "tabish raja",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.19.2",
+        "lodash": "^4.17.21",
+        "mongodb": "^6.8.0",
+        "mongoose": "^8.4.4"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
